@@ -10,10 +10,10 @@
 pm2 install pm2-metrics
 ```
 
-#### Or Clone and run as a seperate application
+#### Or Clone and run endpoint version as a seperate application
 
 ```shell
-    $ git clone https://github.com/saikatharryc/pm2-prometheus-exporter.git
+    $ git clone https://github.com/syonfox/pm2-mesh.git
     $ npm install
     $ pm2 start exporter.js --name pm2-metrics
 ```
